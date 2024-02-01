@@ -2,7 +2,7 @@
 
 Este projeto Vagrant em conjunto com o VirtualBox configura um ambiente multi-máquina com um servidor de banco de dados (db) e um servidor web (web) utilizando boxes do Ubuntu Focal64. A configuração inclui a configuração SSH, um servidor MySQL para o banco de dados e um servidor web Apache para a máquina web. Além disso, destaca-se que será possível visualizar uma página web hospedada no endereço do servidor Apache configurado na máquina virtual web.
 
-## Estrutura do repositório:
+## Estrutura do repositório
 ```
 ├── LICENSE
 ├── README.md
