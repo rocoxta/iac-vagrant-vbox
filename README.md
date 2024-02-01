@@ -9,10 +9,10 @@ Este projeto Vagrant em conjunto com o VirtualBox configura um ambiente multi-m�
 ├── Vagrantfile                  >> Arquivo Vagrantfile
 ├── provision_db.sh              >> Arquivo provisioner da máquina 'db'
 ├── provision_web.sh             >> Arquivo provisioner da máquina 'web'            
-└── ssh-key      
+└── ssh-key                      >> Chave SSH privada
 └── files                
  	├── html/                >> Arquivos da página web, que será possível visualizar no endereço do servidor apache.
-	└── ssh-key.pub          >> Chave SSH
+	└── ssh-key.pub          >> Chave SSH pública
 ```
 
 ## Requisitos
