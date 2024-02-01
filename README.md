@@ -20,7 +20,7 @@ Este projeto Vagrant em conjunto com o VirtualBox configura um ambiente multi-m�
 - [Vagrant](https://www.vagrantup.com/)
 - [VirtualBox](https://www.virtualbox.org/)
 
-## Preparação do Ambiente
+## Preparação do ambiente
 
 ### Instalação do Vagrant:
 
@@ -59,7 +59,7 @@ $ ssh -i key-acess vagrant@192.168.0.66
 4- Acesso a página web configurada no endereço do Servidor Web:
 - O servidor web estará acessível em http://192.168.0.66:8080 a partir do host local.
 
-## Detalhes de Configuração
+## Detalhes de configuração
 - A máquina 'db' possui MySQL Server instalado e configurado. Um usuário 'rodrigocoal' é criado com a senha '123'.
 - A máquina 'web' possui Apache2 instalado. Os arquivos do diretório files/html/ são copiados para o diretório de exibição do servidor web.
 
